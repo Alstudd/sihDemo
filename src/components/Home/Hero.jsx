@@ -6,18 +6,18 @@ export default function Hero() {
     <div>
       <div className="relative flex justify-center">
         <img
-          className="absolute z-10"
+          className="mt-4 absolute z-10 md:w-auto sm:w-[22rem] w-full"
           src="/Home/HeroEllipseGrad.svg"
           alt="grad"
         />
       </div>
       <div className="flex flex-col items-center gap-7">
-        <div className="mt-14 flex flex-col items-center gap-4">
-          <h1 className="text-center text-6xl font-extrabold w-[56rem] leading-tight">
+        <div className="md:mt-24 mt-14 flex flex-col items-center gap-4">
+          <h1 className="text-center lg:text-6xl md:text-5xl text-4xl font-extrabold lg:w-[56rem] md:w-[40rem] w-[22rem] md:leading-normal leading-tight">
             Your Gateway to International Trade{" "}
-            <span className="gradText1">Begins Here</span>
+            <span className="gradText1 leading-snug">Begins Here</span>
           </h1>
-          <p className="text-center text-xl font-medium text-[#616161] w-[46rem]">
+          <p className="text-center md:text-xl text-base font-medium text-[#616161] lg:w-[46rem] md:w-[35rem] w-[15rem]">
             Join Our Government Backed Platform, Empowering Small Businesses on
             the Global Stage. Use our Platform For your Benefits and be the next
             Unicorn.
