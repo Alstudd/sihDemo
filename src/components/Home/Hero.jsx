@@ -38,9 +38,16 @@ export default function Hero() {
           </a>
         </div>
       </div>
-      <div className="relative mt-4 flex flex-col items-center">
-        <img src="/Home/Ellipse1.svg" alt="img" />
-        <img src="/Home/Line1.svg" alt="img" />
+      <div className="relative mt-2 flex flex-col items-center">
+        {/* <img src="/Home/Ellipse1.svg" alt="img" />
+        <img src="/Home/Line1.svg" alt="img" /> */}
+        {Array.from({length: 4}, (_, index) => {
+          return <img key={index} className="xl:block hidden pt-1" src="/Home/Line2.svg" alt="img" />
+        })}
+        <img className="xl:block hidden absolute top-8 right-[47.9%]" src="/Home/arrowLeft.svg" alt="arrowLeft" />
+        <img className="xl:block hidden absolute top-16 right-[52%]" src="/Home/Line3.svg" alt="" />
+        <img className="md:block hidden absolute left-16 top-16" src="/Home/Line4.svg" alt="" />
+        <img className="absolute left-[1.9rem] xl:top-20 top-10" src="/Home/Ellipse2.svg" alt="" />
       </div>
     </div>
   );

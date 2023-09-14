@@ -7,7 +7,7 @@ export default function Navbar() {
   const handleClick = () => setToggle(!toggle);
   return (
     <div className="relative flex justify-between items-center w-full">
-      <img className="pl-5 z-40" src="/logo.svg" alt="logo" />
+      <a className="z-40" href="/"><img className="pl-5" src="/logo.svg" alt="logo" /></a>
       <div className="hidden lg:flex pl-40 gap-[4.75rem] text-[#6F6F6F] text-base font-normal items-center">
         <a href="/">Home</a>
         <a href="/about">About us</a>
