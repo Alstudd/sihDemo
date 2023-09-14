@@ -13,7 +13,7 @@ export default function Hero() {
       </div>
       <div className="flex flex-col items-center gap-7">
         <div className="md:mt-24 mt-14 flex flex-col items-center gap-4">
-          <h1 className="z-20 text-center lg:text-6xl md:text-5xl text-4xl font-extrabold lg:w-[56rem] md:w-[40rem] w-[22rem] md:leading-normal leading-tight">
+          <h1 className="z-10 text-center lg:text-6xl md:text-5xl text-4xl font-extrabold lg:w-[56rem] md:w-[40rem] w-[22rem] md:leading-normal leading-tight">
             Your Gateway to International Trade{" "}
             <span className="gradText1 leading-snug">Begins Here</span>
           </h1>
