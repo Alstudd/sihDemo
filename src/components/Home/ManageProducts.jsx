@@ -17,10 +17,10 @@ export default function ManageProducts() {
         <p className="ml-10 text-xl font-medium text-[#616161] sm:w-full w-[17rem]">Get Business Insights Tools, Manage Your Products, Export With DNK</p>
         <img className="ml-8" src="/Home/manageProd.svg" alt="" />
       </div>
-      <img className="xl:block hidden absolute -bottom-[1.5rem] left-16" src="/Home/Line6.svg" alt="" />
-      <img className="lg:block hidden absolute xl:-bottom-[10.1rem] -bottom-28 xl:right-[49.2rem] right-[94.2%]" src="/Home/Line7.svg" alt="" />
+      <img className="xl:block hidden absolute -bottom-[2.7rem] left-16" src="/Home/Line6.svg" alt="" />
+      <img className="lg:block hidden absolute xl:-bottom-[11.3rem] -bottom-28 xl:right-[49.2rem] right-[94.2%]" src="/Home/Line7.svg" alt="" />
       <img className="xl:hidden lg:block hidden absolute -bottom-60 right-[94.2%]" src="/Home/Line7.svg" alt="" />
-      <img className="lg:block hidden absolute xl:-bottom-[11rem] -bottom-28 xl:right-[48.8rem] right-[93.5%]" src="/Home/Ellipse5.svg" alt="" />
+      <img className="lg:block hidden absolute xl:-bottom-[11.3rem] -bottom-28 xl:right-[48.8rem] right-[93.5%]" src="/Home/Ellipse5.svg" alt="" />
     </div>
   );
 }
