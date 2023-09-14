@@ -3,9 +3,9 @@ import "../../css/hero.css";
 
 export default function WhatWeDo() {
   return (
-    <div className="flex flex-col gap-6 sm:ml-24 ml-0 2xl:w-[80rem] xl:w-[72.5rem] lg:w-[50rem] md:w-[41rem] w-[28rem]">
-      <h1 className="mt-12 lg:text-6xl md:text-5xl text-4xl font-extrabold md:leading-normal leading-tight sm:ml-0 ml-24 w-full">What we do?</h1>
-      <p className="ml-10 text-xl font-medium text-[#616161]">
+    <div className="flex flex-col gap-6 sm:ml-24 ml-0 2xl:w-[80rem] xl:w-[72.5rem] lg:w-[50rem] md:w-[41rem] sm:w-[28rem] w-full sm:pr-0 pr-8">
+      <h1 className="mt-12 lg:text-6xl md:text-5xl text-4xl font-extrabold md:leading-normal leading-tight sm:ml-0 ml-24 sm:w-full w-[17rem]">What we do?</h1>
+      <p className="ml-10 text-xl font-medium text-[#616161] sm:w-full w-[17rem]">
         You Are freely Allowed to Browse Products as a Customer, But what if you
         want to become a Seller? No worries We've Got your Back. Manage your
         Products, categories, Prices.
@@ -55,8 +55,8 @@ export default function WhatWeDo() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col xl:items-start items-center gap-8 border-l-[1px] xl:border-l-black border-l-none xl:shadow-none shadow-lg h-[33.4rem] bg-white rounded-tr-2xl rounded-br-2xl xl:rounded-tl-none xl:w-[34.4rem] lg:w-[47.5rem] md:w-[38.5rem] rounded-tl-2xl xl:rounded-bl-none rounded-bl-2xl">
-            <div className="flex items-center w-full md:gap-36 gap-18 justify-between px-4 py-4 bg-[#3A3A3A] drop-shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] rounded-tr-2xl xl:rounded-tl-none rounded-tl-2xl">
+          <div className="flex flex-col xl:items-start items-center gap-8 border-l-[1px] xl:border-l-black border-l-none xl:shadow-none shadow-lg h-[33.4rem] bg-white rounded-tr-2xl rounded-br-2xl xl:rounded-tl-none xl:w-[34.4rem] lg:w-[47.5rem] md:w-[38.9rem] rounded-tl-2xl xl:rounded-bl-none rounded-bl-2xl">
+            <div className="flex items-center w-full md:gap-36 gap-18 justify-between px-4 py-4 bg-[#3A3A3A] drop-shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] md:rounded-tr-2xl rounded-tr-none xl:rounded-tl-none md:rounded-tl-2xl rounded-tl-none">
               <img src="/Home/akar-icon.svg" alt="" />
               <h2 className="text-white text-xl font-light">E-Market</h2>
               <img src="/Home/bell-icon.svg" alt="" />
